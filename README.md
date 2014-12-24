@@ -10,7 +10,7 @@ Pre-requisites
 https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg
 
 2 - Open the info.plist and change the following key values: 
-- FacebookAppID: <Inform your Facebook App Id>
+- FacebookAppID: \<Inform your Facebook App Id>
 - FacebookDisplayName: <Inform your Facebook App Name>
 - URL Types
   - Item 0 
