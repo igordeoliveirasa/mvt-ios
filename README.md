@@ -17,4 +17,4 @@ https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg
     - URL Schemes
       - Item 0: fb\<Inform your Facebook App Id\>
 
-3 - Compile it, run and start your business logic!
+3 - Compile it, run and start developing your business logic!
