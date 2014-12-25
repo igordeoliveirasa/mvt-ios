@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78C32B3B1A4BB4E8001DAA8D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C32B3A1A4BB4E8001DAA8D /* FacebookSDK.framework */; };
+		78C32B3C1A4BB4ED001DAA8D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C32B3A1A4BB4E8001DAA8D /* FacebookSDK.framework */; };
 		78CE39451A4B65C800D7FABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE39441A4B65C800D7FABC /* AppDelegate.swift */; };
 		78CE39481A4B65C800D7FABC /* mvt_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78CE39461A4B65C800D7FABC /* mvt_ios.xcdatamodeld */; };
 		78CE394A1A4B65C800D7FABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE39491A4B65C800D7FABC /* ViewController.swift */; };
@@ -14,7 +16,6 @@
 		78CE394F1A4B65C800D7FABC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CE394E1A4B65C800D7FABC /* Images.xcassets */; };
 		78CE39521A4B65C800D7FABC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CE39501A4B65C800D7FABC /* LaunchScreen.xib */; };
 		78CE395E1A4B65C800D7FABC /* mvt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE395D1A4B65C800D7FABC /* mvt_iosTests.swift */; };
-		78CE39681A4B66EB00D7FABC /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CE39671A4B66EB00D7FABC /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78C32B3A1A4BB4E8001DAA8D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		78CE393F1A4B65C800D7FABC /* mvt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CE39431A4B65C800D7FABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78CE39441A4B65C800D7FABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +41,6 @@
 		78CE39571A4B65C800D7FABC /* mvt-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvt-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CE395C1A4B65C800D7FABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78CE395D1A4B65C800D7FABC /* mvt_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvt_iosTests.swift; sourceTree = "<group>"; };
-		78CE39671A4B66EB00D7FABC /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		78CE39691A4B6A7C00D7FABC /* Bridge-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CE39681A4B66EB00D7FABC /* FacebookSDK.framework in Frameworks */,
+				78C32B3B1A4BB4E8001DAA8D /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C32B3C1A4BB4ED001DAA8D /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +67,7 @@
 		78CE39361A4B65C800D7FABC = {
 			isa = PBXGroup;
 			children = (
-				78CE39671A4B66EB00D7FABC /* FacebookSDK.framework */,
+				78C32B3A1A4BB4E8001DAA8D /* FacebookSDK.framework */,
 				78CE39411A4B65C800D7FABC /* mvt-ios */,
 				78CE395A1A4B65C800D7FABC /* mvt-iosTests */,
 				78CE39401A4B65C800D7FABC /* Products */,
@@ -351,6 +353,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/igor/Documents/FacebookSDK,
+					/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "mvt-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -366,6 +369,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/igor/Documents/FacebookSDK,
+					/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "mvt-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -381,6 +385,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					/Documents/FacebookSDK,
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -400,6 +405,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = "mvt-iosTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -427,6 +433,7 @@
 				78CE39631A4B65C800D7FABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78CE39641A4B65C800D7FABC /* Build configuration list for PBXNativeTarget "mvt-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +442,7 @@
 				78CE39661A4B65C800D7FABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
