@@ -1,8 +1,8 @@
 language: objective-c
-install:
-  - wget "https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg"
-  - sudo installer -pkg "facebook-ios-sdk-current.pkg" -target /
 
+install:
+  - chmod +x configure.sh
+  - sh configure.sh
 branches:
   only:
       - /^.*$/
