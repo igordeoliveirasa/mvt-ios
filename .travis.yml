@@ -7,7 +7,4 @@ branches:
   only:
       - /^.*$/
 
-before_script:
-  - killall -9 "iOS Simulator"
-  
 script: xcodebuild test -project mvt-ios.xcodeproj -scheme mvt-iosTests
