@@ -1,4 +1,4 @@
-mvt-ios
+Minimal Viable Template for iOS
 =======
 [![Build Status](https://travis-ci.org/igordeoliveirasa/mvt-ios.svg?branch=master)](https://travis-ci.org/igordeoliveirasa/mvt-ios)
 
