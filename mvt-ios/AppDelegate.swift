@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let SCHEME_FACEBOOK = "fb453476448077542"
+    let SCHEME_GOOGLE = "com.igordeoliveira.mvt-ios"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         FBLoginView.self
@@ -21,11 +23,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+
+        var wasHandled:Bool = false
+        println(url.scheme)
         
-        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        if url.scheme == SCHEME_FACEBOOK {
+            wasHandled = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        }
+        else if url.scheme == SCHEME_GOOGLE {
+            wasHandled = GPPURLHandler.handleURL(url, sourceApplication: sourceApplication, annotation: annotation)
+        }
+        
         return wasHandled
-        
     }
     
     func applicationWillResignActive(application: UIApplication) {
