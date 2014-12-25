@@ -1,0 +1,5 @@
+language: objective-c
+branches:
+  only:
+      - /^.*$/
+script: xcodebuild test -project mvt-ios.xcodeproj -scheme mvt-iosTests
