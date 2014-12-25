@@ -1,7 +1,10 @@
 mvt-ios
 =======
+[![Build Status](https://travis-ci.org/igordeoliveirasa/mvt-ios.svg?branch=master)](https://travis-ci.org/igordeoliveirasa/mvt-ios)
 
-Social Login for iOS. There is Facebook, currently. I want to add Google, GitHub, Twitter, Linkedin and so on.
+Social Login for iOS. 
+There is Facebook, currently. 
+I want to add Google, GitHub, Twitter, Linkedin and so on.
 
 Pre-requisites
 -------
