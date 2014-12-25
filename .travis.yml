@@ -2,6 +2,7 @@ language: objective-c
 install:
   - wget "https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg"
   - sudo installer -pkg "facebook-ios-sdk-current.pkg" -target /
+  - killall -9 "iOS Simulator"
   
 branches:
   only:
