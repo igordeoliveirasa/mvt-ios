@@ -7,4 +7,4 @@ branches:
   only:
       - /^.*$/
 
-script: xcodebuild test -project mvt-ios.xcodeproj -scheme mvt-iosTests
+script: xcodebuild test -project mvt-ios.xcodeproj -scheme mvt-iosTests -destination 'platform=iOS Simulator,name=iPhone 5s'
