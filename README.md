@@ -1,7 +1,7 @@
 mvt-ios
 =======
 
-Social Login for iOS. Current there is Facebook. I want to add Google, GitHub, Twitter, Linkedin and so on.
+Social Login for iOS. There is Facebook, currently. I want to add Google, GitHub, Twitter, Linkedin and so on.
 
 Pre-requisites
 -------
