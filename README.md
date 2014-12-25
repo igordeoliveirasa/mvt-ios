@@ -9,8 +9,9 @@ I want to add Google, GitHub, Twitter, Linkedin and so on.
 Pre-requisites
 -------
 
-1 - Download and install the Facebook SDK for iOS and install, from:
-https://developers.facebook.com/resources/facebook-ios-sdk-current.pkg
+1 - Install dependencies running the following commands, in your terminal:
+- chmod +x configure.sh
+- ./configure.sh
 
 2 - Open the info.plist and change the following key values: 
 - FacebookAppID: \<Inform your Facebook App Id\>
