@@ -1,7 +1,7 @@
 Yolo iOS
 =======
 [![Build Status](https://travis-ci.org/igordeoliveirasa/yolo-ios.svg?branch=master)](https://travis-ci.org/igordeoliveirasa/yolo-ios)
-[![Coverage Status](https://img.shields.io/coveralls/igordeoliveirasa/yolo-android.svg)](https://coveralls.io/r/igordeoliveirasa/yolo-android?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/igordeoliveirasa/yolo-ios.svg)](https://coveralls.io/r/igordeoliveirasa/yolo-ios?branch=master)
 
 It's a minimal viable template for iOS. I've been developing it in order to speed up the development of a minimal viable product due to the fact that we only live once. :)
 
