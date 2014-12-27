@@ -1,8 +1,17 @@
-Minimal Viable Template for iOS
+Yolo iOS
 =======
-[![Build Status](https://travis-ci.org/igordeoliveirasa/mvt-ios.svg?branch=master)](https://travis-ci.org/igordeoliveirasa/mvt-ios)
+[![Build Status](https://travis-ci.org/igordeoliveirasa/yolo-ios.svg?branch=master)](https://travis-ci.org/igordeoliveirasa/yolo-ios)
+[![Coverage Status](https://img.shields.io/coveralls/igordeoliveirasa/yolo-android.svg)](https://coveralls.io/r/igordeoliveirasa/yolo-android?branch=master)
 
-Social Login for iOS: Facebook + Google. GitHub, Twitter and Linkedin are coming soon.
+It's a minimal viable template for iOS. I've been developing it in order to speed up the development of a minimal viable product due to the fact that we only live once. :)
+
+Features
+-----
+- Social login: Facebook & Google. 
+
+Comming Soon
+-----
+- Social login: GitHub, Twitter and Linkedin are coming soon.
 
 Pre-requisites
 -------
